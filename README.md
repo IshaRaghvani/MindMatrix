@@ -1,5 +1,9 @@
 ﻿# MindMatrix
- # Optimizing LLMs for Data Preprocessing in Specialized Domains
+# Optimizing LLMs for Data Preprocessing in Specialized Domains
+
+![image](https://github.com/user-attachments/assets/0b54d666-ece2-418f-9dcc-ac21978a987e)
+![image](https://github.com/user-attachments/assets/64f030fd-e12c-4f78-9097-2e1674ba9cda)
+
 
 ## Project Overview
 
