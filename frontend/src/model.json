@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Linear Regression",
+    "parameters": "{'fit_intercept': True, 'normalize': False}",
+    "performance": "78%",
+    "additionalInfo": "Linear regression is a linear approach to modeling the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship between the independent and dependent variables."
+  },
+  {
+    "name": "Decision Tree",
+    "parameters": "{'criterion': 'gini', 'max_depth': None}",
+    "performance": "85%",
+    "additionalInfo": "Decision trees are a popular method for classification and regression tasks. They recursively split the dataset into subsets based on the most significant attribute until the data in each subset is homogenous or a stopping criterion is met."
+  },
+  {
+    "name": "Random Forest",
+    "parameters": "{'n_estimators': 100, 'max_depth': None}",
+    "performance": "90%",
+    "additionalInfo": "Random forests are an ensemble learning method that constructs a multitude of decision trees during training and outputs the mode of the classes (classification) or mean prediction (regression) of the individual trees."
+  }
+]

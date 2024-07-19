@@ -1,0 +1,226 @@
+.main-div{
+    text-align: center;
+    position: relative;
+  z-index: 1;
+    margin: 7rem;
+    background: rgba(0, 0, 0, 0);
+    color: #f4f4f4;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it is behind other content */
+  background-color: "black";
+}
+spline-viewer {
+  width: 100%;
+  height: 100%;
+}
+.small-text{
+    font-size: 11;
+    color: #f4f4f4;
+}
+
+.info-boxes{
+    
+    display: flex;
+   justify-content: space-around;
+  margin: 6rem;
+
+ 
+    
+}
+.info-box {
+  padding: 4rem;
+  margin: 0.5rem;
+  border-radius: 7px;
+  border: 1px solid rgb(197, 197, 197); /* Add border width for visibility */
+  font-size: 14px; /* Increase font size for better readability */
+  color: white; /* Ensure text color is readable against dark background */
+  /* background: rgba(0, 0, 0, 0); Semi-transparent background */
+  backdrop-filter: blur(1px);
+  box-shadow: 2px 2px 4px rgba(113, 113, 113, 0.2);
+}
+
+.button-start{
+    background-color: #f59292;
+    border-radius: 18px;
+    width: 10rem;
+    height: 3rem;
+    border: 0px solid #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    margin: 1rem;
+    font-size: 16px;
+
+}
+.button-start:hover {
+    background-color: #ffc5c5;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.upload-area{
+    border: "7px dotted black";
+    border-color: rgb(128, 128, 128);
+    border-style: dotted;
+    height: 9rem;
+    margin: 0rem;
+    width: 100%;
+    
+}
+.download{
+    background-color: #80afff;
+    border-radius: 7px;
+    width: 10rem;
+    height: 2rem;
+   
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    margin: 1rem;
+    
+    
+
+}
+.download-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 3rem;
+  }
+.download:hover {
+    background-color: #c5dfff;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Example CSS for the modal (LoadingPage) */
+.loading-modal {
+  position: fixed; /* Ensure the modal is fixed and covers the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 50, 50, 0.8); /* Semi-transparent background */
+  z-index: 1000; /* High z-index to appear on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure that the main content and checkboxes have a lower z-index */
+
+
+  .loading-content {
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .loading-content img {
+    width: 50px; /* Adjust the size of the loading GIF as needed */
+  }
+  
+  .model-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    
+    cursor: pointer;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: medium;
+    
+
+  }
+  .model-info{
+    color:rgb(0, 0, 0);
+    font-weight:400;
+
+  }
+  
+
+  
+  .model-box-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .model-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .model-box.expanded {
+    background-color: #f9f9f9;
+  }
+  
+  .model-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .model-info {
+    margin-top: 20px;
+  }
+  
+  .model-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .model-info table, .model-info th, .model-info td {
+    border: 1px solid #ddd;
+  }
+  
+  .model-info th, .model-info td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .model-info th {
+    background-color: #f2f2f2;
+  }
+  
+  .model-info td div {
+    white-space: pre-wrap; /* Ensures JSON strings are wrapped properly */
+  }
+  
+  .model-info pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  
+
+  .custom-tabs .ant-tabs-tab {
+    color: white;
+  }
+  
+  .custom-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white;
+  }
+  
+  .custom-tabs .ant-tabs-tab:hover {
+    color: white;
+  }
+  
+  .custom-tabs .ant-tabs-ink-bar {
+    background-color: white;
+  }
+  
